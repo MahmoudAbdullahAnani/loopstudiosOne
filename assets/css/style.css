@@ -1,0 +1,176 @@
+*{
+    transition-duration: .5s;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+.galeia{
+    width: 100%;
+    height: 98vh;
+}
+.galeia img{
+    width: 100%;
+    height: 100%;
+}
+.conent{
+    position: relative;
+    height: 100%;
+    top: -100%;
+}
+.conent h3{
+    position: absolute;
+    letter-spacing: 8px;
+    line-height: 1.4;
+    margin-left: 10%;
+    margin-top: 20rem;
+}
+.nav-item .nav-link:hover {
+    color: rgba(255, 255, 255, 0.548) !important;
+}
+.nav-item a{
+    width: fit-content;
+}
+.active:hover,
+.active{
+    color: rgba(255, 255, 255, 0.548) !important;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.548);
+}
+/* End Galrei */
+/* Start VR */
+.vr{
+    margin-top: 90vh;
+    padding: 10px;
+    width: 100%;
+}
+.vr-text{
+    background: white;
+}
+.vr-text h3{
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.vr-text h6 {
+    color: rgba(0, 0, 0, 0.457);
+}
+/* End VR */
+/* Start futtiar */
+.futtiar-top h2 {
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.futtiar-top a {
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+}
+.futtiar-top-one h4 {
+
+    top: 100%;
+    letter-spacing: 5px;
+    color: white !important;
+    font-weight: 400;
+}
+/* Start hover image */
+.fu-1:hover .fu-h1 {
+    top: 80%;
+    text-shadow: 0px 0px 5px black;
+}
+.fu-2:hover .fu-h2 {
+    top: 80%;
+    text-shadow: 0px 0px 5px black;
+}
+.fu-3:hover .fu-h3 {
+    top: 80%;
+    text-shadow: 0px 0px 5px black;
+}
+.fu-4:hover .fu-h4 {
+    top: 80%;
+    text-shadow: 0px 0px 5px black;
+}
+.fu-5:hover .fu-h5 {
+    top: 80%;
+    text-shadow: 0px 0px 5px black;
+}
+.fu-6:hover .fu-h6 {
+    top: 80%;
+    text-shadow: 0px 0px 5px black;
+}
+.fu-7:hover .fu-h7 {
+    top: 80%;
+    text-shadow: 0px 0px 5px black;
+}
+.fu-8:hover .fu-h8 {
+    top: 80%;
+    text-shadow: 0px 0px 5px black;
+}
+.fu-1:hover .img-1 {
+    filter: contrast(0.5);
+    transform: rotate(-3deg);
+}
+.fu-2:hover .img-2 {
+    filter: contrast(0.5);
+    transform: rotate(-3deg);
+}
+.fu-3:hover .img-3 {
+    filter: contrast(0.5);
+    transform: rotate(-3deg);
+}
+.fu-4:hover .img-4 {
+    filter: contrast(0.5);
+    transform: rotate(-3deg);
+}
+.fu-5:hover .img-5 {
+    filter: contrast(0.5);
+    transform: rotate(-3deg);
+}
+.fu-6:hover .img-6 {
+    filter: contrast(0.5);
+    transform: rotate(-3deg);
+}
+.fu-7:hover .img-7 {
+    filter: contrast(0.5);
+    transform: rotate(-3deg);
+}
+.fu-8:hover .img-8 {
+    filter: contrast(0.5);
+    transform: rotate(-3deg);
+}
+/* End hover image */
+.futtiar-top a:hover {
+    background-color:white;
+    color: black;
+}
+.futtiar-top-one{
+    width: 300px;
+    height: 450px;
+}
+.futtiar-top-one img{
+    width: 100%;
+    height: 100%;
+}
+/* End futtiar */
+/* Start Footer */
+.footer-links svg {
+    font-size: x-large;
+    color: white;
+}
+.linlks-contact{
+    width: fit-content;
+}
+.fac:hover{
+    border-bottom: 3px white solid;
+}
+.twitt:hover{
+    border-bottom: 3px white solid;
+}
+.pint:hover{
+    border-bottom: 3px white solid;
+}
+.ins:hover{
+    border-bottom: 3px white solid;
+}
+.footer-bottom{
+    width: 100%;
+}
+/* End Footer */
